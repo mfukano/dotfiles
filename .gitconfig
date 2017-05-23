@@ -7,9 +7,8 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-  name = Skylar Brown
-  email = skylarmb@gmail.com
-	signingkey = 83BDBEB0
+  name = Mat Fukano
+  email = fukano.mat@gmail.com
 [alias]
   c = commit
   d = diff
@@ -45,7 +44,3 @@
             git rebase origin/master; \
             echo "~~ done"; \
           }; f"
-[commit]
-	gpgsign = true
-[gpg]
-	program = gpg
